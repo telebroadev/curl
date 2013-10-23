@@ -1,5 +1,5 @@
 {
-    "name": "shuber/curl",
+    "name": "carlescliment/curl",
     "description": "A basic CURL wrapper for PHP.",
     "type": "library",
     "keywords": ["php", "curl"],
