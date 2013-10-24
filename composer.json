@@ -1,6 +1,6 @@
 {
     "name": "carlescliment/curl",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A basic CURL wrapper for PHP.",
     "type": "library",
     "keywords": ["php", "curl"],
