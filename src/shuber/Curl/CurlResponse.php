@@ -39,8 +39,7 @@ class CurlResponse {
     **/
     function __construct($response) {
         # Headers regex
-        $pattern = '/HTTP\/\d\.\d.*?\d.*?.*/';
-        // HTTP/\d\.\d.*?$.*?\r\n\#ims';
+        $pattern = '#HTTP/\d\.\d.*?$.*?\r\n\r\n#ims';
 
         # Extract headers from response
         preg_match_all($pattern, $response, $matches);
