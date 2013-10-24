@@ -20,5 +20,4 @@ class CurlTest extends \PHPUnit_Framework_TestCase {
         $this->curl->get('diaewkaksdljf-invalid-url-dot-com.com');
         $this->assertNotEmpty($this->curl->error());
     }
-
 }
