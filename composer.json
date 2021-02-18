@@ -1,6 +1,6 @@
 {
-    "name": "carlescliment/curl",
-    "version": "1.0.0",
+    "name": "telebroadev/curl",
+    "version": "1.0.3",
     "description": "A basic CURL wrapper for PHP.",
     "type": "library",
     "keywords": ["php", "curl"],
